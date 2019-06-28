@@ -1,0 +1,16 @@
+PODS:
+  - FlutterApp (0.0.1)
+
+DEPENDENCIES:
+  - FlutterApp (from `./FlutterApp`)
+
+EXTERNAL SOURCES:
+  FlutterApp:
+    :path: "./FlutterApp"
+
+SPEC CHECKSUMS:
+  FlutterApp: 5f1825a5644203165432f61743df454e1f2535d5
+
+PODFILE CHECKSUM: eca801ef4226a81d9d093542c0a5d91206ae0c8d
+
+COCOAPODS: 1.7.1
