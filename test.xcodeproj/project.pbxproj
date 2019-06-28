@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		89F11F09BED8A6000CDDD01C /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C97A05C12B9B02A83C412E /* libPods-test.a */; };
 		F655190222C4D98600CF73C9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F655190122C4D98600CF73C9 /* Settings.bundle */; };
-		F679288D22A61084000001A9 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F679288C22A61084000001A9 /* ViewController1.m */; };
 		F679289022A61C68000001A9 /* HYSwiftKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F679288F22A61C68000001A9 /* HYSwiftKeyChain.m */; };
 		F6A88A492260D7F20095CD09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A88A482260D7F20095CD09 /* AppDelegate.m */; };
 		F6A88A4C2260D7F20095CD09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A88A4B2260D7F20095CD09 /* ViewController.m */; };
@@ -25,8 +24,6 @@
 		A2C97A05C12B9B02A83C412E /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F655190122C4D98600CF73C9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F655190322C4DA7500CF73C9 /* Settings1.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings1.bundle; sourceTree = "<group>"; };
-		F679288B22A61084000001A9 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
-		F679288C22A61084000001A9 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		F679288E22A61C68000001A9 /* HYSwiftKeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSwiftKeyChain.h; sourceTree = "<group>"; };
 		F679288F22A61C68000001A9 /* HYSwiftKeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSwiftKeyChain.m; sourceTree = "<group>"; };
 		F6A88A442260D7F20095CD09 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,9 +83,7 @@
 				F6A88A482260D7F20095CD09 /* AppDelegate.m */,
 				F6A88A4A2260D7F20095CD09 /* ViewController.h */,
 				F6A88A4B2260D7F20095CD09 /* ViewController.m */,
-				F679288B22A61084000001A9 /* ViewController1.h */,
 				F655190122C4D98600CF73C9 /* Settings.bundle */,
-				F679288C22A61084000001A9 /* ViewController1.m */,
 				F679288E22A61C68000001A9 /* HYSwiftKeyChain.h */,
 				F679288F22A61C68000001A9 /* HYSwiftKeyChain.m */,
 				F655190322C4DA7500CF73C9 /* Settings1.bundle */,
@@ -207,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F679288D22A61084000001A9 /* ViewController1.m in Sources */,
 				F679289022A61C68000001A9 /* HYSwiftKeyChain.m in Sources */,
 				F6A88A4C2260D7F20095CD09 /* ViewController.m in Sources */,
 				F6A88A572260D7F40095CD09 /* main.m in Sources */,
